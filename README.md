@@ -30,7 +30,7 @@ Example:
 /whmcs/
 ├── init.php
 ├── configuration.php
-└── catalog-api.php
+└── catalog.php
 ```
 
 ## Configuration
@@ -73,7 +73,7 @@ Authorization: Bearer YOUR_SECRET
 ```bash
 curl \
   -H "X-Catalog-Key: YOUR_SECRET" \
-  "https://example.com/catalog-api.php"
+  "https://example.com/catalog.php"
 ```
 
 Optional query parameters:
@@ -88,7 +88,7 @@ Optional query parameters:
 Example:
 
 ```text
-https://example.com/catalog-api.php?currency=USD&available_only=1
+https://example.com/catalog.php?currency=USD&available_only=1
 ```
 
 ## Security
